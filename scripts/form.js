@@ -73,6 +73,7 @@ form.addEventListener('submit', e => {
             clearFormFields();
         }, 4000);
       })
-      .catch((error) => console.log('Sending form failed'));
+        .catch((error) => console.log('Sending form failed'));
+
 })
 
